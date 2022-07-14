@@ -79,65 +79,47 @@ body{
 
 .btn1{
     position: absolute;
-    top: 225px;
-    left : 300px; 
+    top: 19.6%;
+    left: 19%;
     font-weight: 600;
     transition: 0.25s;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 1vw 1vh;
     border-radius: 15px;
-    border:none;
+    border: none;
     background-color: #fff;
-    font-size : 26px;
+    font-size: 2.5vw;
     cursor: pointer;
 }
 
+
 .btn2{
     position: absolute;
-    top: 464px;
-    left : 170px; 
+    top: 40.5%;
+    left: 11%;
     font-weight: 600;
     transition: 0.25s;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.5vw 1vh;
     border-radius: 15px;
-    border:none;
+    border: none;
     background-color: #fff;
-    font-size : 26px;
+    font-size: 2vw;
     cursor: pointer;
 }
 
 .btn3{
     position: absolute;
-    top: 270px;
-    left : 1060px; 
+    top: 23%;
+    left: 69%;
     font-weight: 600;
     transition: 0.25s;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 1.2vw 2vh;
     border-radius: 15px;
-    border:none;
+    border: none;
     background-color: #fff;
-    font-size : 26px;
+    font-size: 2.3vw;
     cursor: pointer;
 }
 
-.slide-content{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    z-index: 2;
-    background: linear-gradient(to right, #0c111b00);
-    color: #e3f2fe;
-}
-
-.btn1:hover{
-    background-color: yellow;
- }
- .btn2:hover{
-    background-color: yellow;
- }
-
- .btn3:hover{
-    background-color: yellow;
- }
