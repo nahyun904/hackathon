@@ -28,11 +28,16 @@ body{
     align-items: center;
 }
 
+.logo{
+    height: 65px;
+    margin-top: 10px;
+}
+
 .nav-links{
     margin-top: 4px;
     display: flex;
     list-style: none;
-    margin-left: 750px;
+    margin-left: 700px;
 }
 
 .nav-items a{
@@ -69,6 +74,52 @@ body{
     object-fit: cover;
     display: block;
     margin-left: auto;
+    position: relative;
+}
+
+.btn1{
+    position: absolute;
+    top: 225px;
+    left : 300px; 
+    font-weight: 600;
+    transition: 0.25s;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border:none;
+    background-color: #fff;
+    font-size : 26px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: absolute;
+    top: 464px;
+    left : 170px; 
+    font-weight: 600;
+    transition: 0.25s;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border:none;
+    background-color: #fff;
+    font-size : 26px;
+    cursor: pointer;
+}
+
+.btn3{
+    position: absolute;
+    top: 270px;
+    left : 1060px; 
+    font-weight: 600;
+    transition: 0.25s;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border:none;
+    background-color: #fff;
+    font-size : 26px;
+    cursor: pointer;
 }
 
 .slide-content{
@@ -79,3 +130,14 @@ body{
     background: linear-gradient(to right, #0c111b00);
     color: #e3f2fe;
 }
+
+.btn1:hover{
+    background-color: yellow;
+ }
+ .btn2:hover{
+    background-color: yellow;
+ }
+
+ .btn3:hover{
+    background-color: yellow;
+ }
