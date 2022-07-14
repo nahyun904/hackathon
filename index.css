@@ -8,7 +8,11 @@ body{
     width: 100%;
     background: #e3f2fe;
     position: relative;
-    font-family: roboto,sans-serif;
+}
+
+@font-face {
+	font-family: 'font';
+	src:url(nanum.otf);
 }
 
 .navbar{
@@ -39,6 +43,11 @@ body{
     opacity: 0.9;
 }
 
+.nav-items a:hover{
+   color: yellow;
+   border-radius: 6px 6px 0 0;
+
+}
 
 
 .slider{
